@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity
         int b = 2;
         Log.d("b: ",String.valueOf(b));
         int c= a+b;
+        int d = a*b;
         Log.d("c: ",String.valueOf(c));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
